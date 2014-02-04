@@ -1,0 +1,149 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	color: #eeeeee;
+	font: 1.25em "ff-tisa-web-pro", Georgia, Cambria, "Times New Roman", Times, serif;
+	letter-spacing: 1.25px;
+	background-color: #1a1a1a;
+	line-height: 1.25;
+}
+
+li {
+	list-style-type: none;
+	margin-bottom: 5px;
+}
+
+a:visited, a:link, a:active {
+    text-decoration: none;
+    color: rgba(162, 144, 253, 1);
+}
+
+a:hover {
+	text-decoration: underline;
+	color: rgba(255, 255, 0, 1);
+} 
+
+p {
+	margin: 15px 0;
+}
+
+h3 {
+	margin: 15px 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/* Left Side Container*/
+
+.left_container {
+	background: #2a2a2a;
+	color: #eeeeee;
+	width: 225px;
+	height: 100%;
+	float: left;
+	position: fixed;
+	text-align: center;
+	padding: 0;
+	text-transform: uppercase;
+	border-right: 1px solid black;
+}
+
+.left_container h1 {
+	font-size: 18px;
+}
+
+.left_container a:hover, .left_container a:visited, .left_container a:link, .left_container a:active {
+    text-decoration: none;
+    color: #eeeeee;
+}
+
+.headshot {
+	width: 125px;
+	height: 125px;
+	border-radius: 50%;
+	margin: 25px 0 15px 0;
+}
+
+.nav-links {
+	margin: 50px 0;
+}
+
+.nav-links a {
+	border-bottom: 1px solid rgba(100, 100, 100, 1);
+	float: left;
+	width: 100%;
+	line-height: 3.5em;
+}
+
+.nav-links a:hover {
+	background-color: #1a1a1a;
+}
+
+.connect {
+	display: block;
+	width: 100%;
+}
+
+.connect-headline {
+	margin: 50px 0 20px 0;
+}
+
+.logo {
+	width: 10%;
+	height: 10%;
+	margin: 10px;
+}
+
+.current_page {
+	background-color: #1a1a1a;
+	border-right: 1px solid transparent;
+}
+
+/* Boilerplate */
+
+.main {
+	margin: 0 0 0 225px;
+}
+
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+	border: 1px solid black;
+	background: #2a2a2a;
+	padding: 20px;
+}
+
+.container h1 {
+	text-align: center;
+}
+
+/* Coding Page */
+
+.coding_breakdown li{
+	list-style-type: disc;
+	margin-left: 20px;
+}
+
+.coding_breakdown section {
+	margin: 20px 0;
+}
+
+.learned_list, .tools_resources li  {
+	color: rgba(243, 166, 51, 1);
+}
+
+
+/* Codepen Page */
+
+
+
+
+
+
+
+
